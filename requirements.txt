@@ -1,10 +1,7 @@
-streamlit
-numpy
 pandas
-scikit-learn
-fastapi
-uvicorn
-pydantic
-gunicorn
-
-FastAPI
+numpy
+streamlit
+google
+os
+dotenv
+google-genai
