@@ -7,3 +7,4 @@ Pillow
 scikit-learn    
 google.generativeai
 uvicorn
+fastapi
