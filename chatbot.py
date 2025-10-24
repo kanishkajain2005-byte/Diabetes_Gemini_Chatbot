@@ -3,7 +3,14 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 from PIL import Image
+from fastapi import FastAPI, Query 
 
+
+app = FastAPI(
+    title="Diabetes Prediction API",
+    description="API for predicting diabetes status using pre-trained ML model and scaler. Supports both POST (JSON body) and GET (query parameters).",
+    version="1.0"
+)
 load_dotenv()
 genai.configure(api_key="AIzaSyAHTsuUjUOaZk-9xWvEROaGToB5lLh2On4")
 model = genai.GenerativeModel("gemini-2.5-flash")
