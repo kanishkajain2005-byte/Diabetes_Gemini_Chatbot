@@ -1,7 +1,7 @@
 pandas
 numpy
 streamlit
-google
-os
-dotenv
-google-genai
+google-genai    
+python-dotenv   
+Pillow          
+scikit-learn    
