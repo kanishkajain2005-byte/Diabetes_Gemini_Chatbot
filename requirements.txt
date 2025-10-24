@@ -6,3 +6,4 @@ python-dotenv
 Pillow          
 scikit-learn    
 google.generativeai
+uvicorn
